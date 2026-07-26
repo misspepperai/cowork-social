@@ -1,0 +1,32 @@
+---
+type: cowork-social-asset-index
+plugin: cowork-social
+plugin_version: 0.1.0
+asset_root: {{asset_root_path}}
+note: Local image catalog. Draft skills look up assets by nickname (e.g. "headshot", "team-photo") and resolve to the local path. Re-run `/onboard-social` Phase 5 to scan the asset_root, or add rows by hand.
+last_updated: {{date}}
+---
+
+# Asset Index
+
+> Nickname → local path. Use short, memorable nicknames — you'll type them when drafting (e.g. `/draft-instagram "new launch" --asset headshot`).
+
+| Nickname | Path | Type | Description | Last used |
+|---|---|---|---|---|
+| {{nickname_1}} | {{path_1}} | {{type_1}} | {{description_1}} | {{last_used_1}} |
+| {{nickname_2}} | {{path_2}} | {{type_2}} | {{description_2}} | {{last_used_2}} |
+| {{nickname_3}} | {{path_3}} | {{type_3}} | {{description_3}} | {{last_used_3}} |
+
+## How to add an asset by hand
+
+1. Drop the file in `{{asset_root_path}}` (or a sub-folder).
+2. Add a row above with a short nickname, the full path, type (image/video/gif), and 1-line description.
+3. Save. The next `/draft-*` run can reference it by nickname.
+
+## How the wizard scans
+
+`/onboard-social` Phase 5 walks `{{asset_root_path}}`, lists every image/video, and asks you to nickname the 5-10 most reused ones. Skip files you'd never reuse.
+
+---
+
+Filled in by `/onboard-social` Phase 5 on {{date}}.

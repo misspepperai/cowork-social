@@ -1,0 +1,36 @@
+---
+type: cowork-social-scheduling-defaults
+plugin: cowork-social
+plugin_version: 0.1.0
+timezone: {{user_timezone}}
+note: Per-platform default post times. Used by every draft skill when offering "Schedule this for [default time]?" Re-run `/onboard-social` Phase 6 to refresh, or edit rows directly.
+last_updated: {{date}}
+---
+
+# Scheduling Defaults
+
+> One row per platform. The default = the day-of-week + hour the draft skill will suggest when offering to schedule. Override per-post at draft time if needed.
+
+| Platform | day_of_week | hour | timezone | reasoning |
+|---|---|---|---|---|
+| LinkedIn | {{linkedin_day}} | {{linkedin_hour}} | {{user_timezone}} | {{linkedin_reasoning}} |
+| Twitter | {{twitter_day}} | {{twitter_hour}} | {{user_timezone}} | {{twitter_reasoning}} |
+| Instagram | {{instagram_day}} | {{instagram_hour}} | {{user_timezone}} | {{instagram_reasoning}} |
+| Facebook | {{facebook_day}} | {{facebook_hour}} | {{user_timezone}} | {{facebook_reasoning}} |
+| TikTok | {{tiktok_day}} | {{tiktok_hour}} | {{user_timezone}} | {{tiktok_reasoning}} |
+| Threads | {{threads_day}} | {{threads_hour}} | {{user_timezone}} | {{threads_reasoning}} |
+
+## Default starting times (industry baselines)
+
+If you skip Phase 6 questions, the wizard uses these defaults — adjust later based on what actually performs for your audience:
+
+- LinkedIn: Tuesday 9:00 AM (B2B morning scroll)
+- Twitter: Wednesday 10:00 AM (mid-week peak)
+- Instagram: Wednesday 11:00 AM (lunch-break scroll)
+- Facebook: Thursday 1:00 PM (afternoon engagement)
+- TikTok: Tuesday 7:00 PM (evening watch window)
+- Threads: Wednesday 12:00 PM (lunch-break, US-anchored)
+
+---
+
+Filled in by `/onboard-social` Phase 6 on {{date}}.

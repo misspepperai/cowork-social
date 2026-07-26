@@ -1,0 +1,56 @@
+---
+type: cowork-social-brand-brief
+plugin: cowork-social
+plugin_version: 0.1.0
+auto_derived_from:
+  - about-me/business-brain.md
+  - about-me/voice.md
+  - about-me/audience.md
+  - about-me/offers.md
+note: The wizard reads existing about-me files FIRST and only asks delta questions for missing or stale fields. Do not edit by hand — re-run `/onboard-social` Phase 2 to refresh via the interview.
+last_updated: {{date}}
+---
+
+# Brand Brief — Social
+
+> Cowork-native shape for social drafting. Every draft skill reads this file first. If a section is `TBD`, the draft will still run but quality drops — re-run Phase 2 to fill the gap.
+
+## What you sell
+
+{{what_you_sell}}
+
+> Plain words. "Handmade soy candles" beats "wellness lifestyle products."
+
+## Target audience
+
+{{target_audience}}
+
+> One specific human — what they want, what they hate, where they hang out. Not a demographic.
+
+## Primary CTA
+
+{{primary_cta}}
+
+> The single action a reader should take after seeing a post. ONE verb. Buy, follow, sign up, DM, reply.
+
+## Recent proof story
+
+{{recent_proof_story}}
+
+> A real, recent moment — a customer win, a mistake fixed, a milestone, a strange thing that happened. Raw material for Vulnerable Story + Receipts hooks.
+
+## Contrarian belief (wedge)
+
+{{contrarian_belief}}
+
+> The opinion you have that most people in your industry would push back on. This is the **single biggest viral fuel** in this whole file. Hooks #1 (Reframe), #6 (Contrarian Take), and #10 (Reverse) all pull from here.
+
+## Voice signature
+
+{{voice_signature}}
+
+> 2-3 voice traits + a 5-word self-description if you've got one. Pulled from `about-me/voice.md` when present. The draft skills layer this on top of platform-specific voice rules in `platform-voice.md`.
+
+---
+
+Filled in by `/onboard-social` Phase 2 on {{date}}.

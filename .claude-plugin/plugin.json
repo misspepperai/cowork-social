@@ -1,0 +1,9 @@
+{
+  "name": "cowork-social",
+  "version": "0.1.1",
+  "description": "Social media content engine for the Cowork AI OS. 13 skills: 8-phase wizard, brand-brief auto-derive, content coach, 6 platform draft skills, post grader, Monday/Saturday/monthly orchestrators. Soft-depends on cowork-ai-os.",
+  "author": {
+    "name": "Miss Pepper AI"
+  },
+  "license": "MIT"
+}

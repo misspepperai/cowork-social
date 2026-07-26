@@ -1,0 +1,52 @@
+---
+type: cowork-social-trend-sources
+plugin: cowork-social
+plugin_version: 0.1.0
+note: Inputs for `/generate-weekly-ideas` (Lesson 6). The skill scans these sources for what's trending in your niche this week, then drafts post-idea candidates. Re-run `/onboard-social` Phase 4 to refresh, or edit any section directly.
+last_updated: {{date}}
+---
+
+# Trend Sources
+
+> Where do you (or should you) watch for what's worth talking about this week? Fill in what you actually read. Skip categories that don't apply.
+
+## RSS feeds
+
+> Newsletter feeds, blog feeds, podcast feeds. Anything with an RSS URL.
+
+| Name | URL | Why it matters |
+|---|---|---|
+| {{rss_name_1}} | {{rss_url_1}} | {{rss_reason_1}} |
+| {{rss_name_2}} | {{rss_url_2}} | {{rss_reason_2}} |
+| {{rss_name_3}} | {{rss_url_3}} | {{rss_reason_3}} |
+
+## Sites to check
+
+> Websites without RSS — `/generate-weekly-ideas` will use Firecrawl to scrape them.
+
+| Site | URL | What to look for |
+|---|---|---|
+| {{site_name_1}} | {{site_url_1}} | {{site_focus_1}} |
+| {{site_name_2}} | {{site_url_2}} | {{site_focus_2}} |
+
+## Keywords to monitor
+
+> Phrases worth tracking across the web this week. The skill uses Perplexity to search for fresh angles.
+
+- {{keyword_1}}
+- {{keyword_2}}
+- {{keyword_3}}
+
+## Accounts to watch
+
+> The 3-10 people whose content reliably sparks ideas for yours. Format: handle + platform.
+
+| Handle | Platform | Why |
+|---|---|---|
+| {{account_1}} | {{account_1_platform}} | {{account_1_reason}} |
+| {{account_2}} | {{account_2_platform}} | {{account_2_reason}} |
+| {{account_3}} | {{account_3_platform}} | {{account_3_reason}} |
+
+---
+
+Filled in by `/onboard-social` Phase 4 on {{date}}.

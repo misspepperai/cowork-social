@@ -1,0 +1,99 @@
+---
+type: cowork-social-platform-voice
+plugin: cowork-social
+plugin_version: 0.1.0
+note: Per-platform voice scaffold. Each draft skill reads ONLY its section (lazy-load). Re-run `/onboard-social` Phase 4 to refresh, or edit any section directly. `TBD` sections fall back to universal voice rules from `brand-brief.md`.
+last_updated: {{date}}
+---
+
+# Platform Voice
+
+> Six sections, one per platform. Fill in the platforms you actually post to — leave the rest as scaffold. The draft skills read only the platform they're drafting for.
+
+## LinkedIn
+
+- **length_range:** 1,200-1,500 chars (sweet spot)
+- **signature_openings:**
+  1. {{linkedin_opening_1}}
+  2. {{linkedin_opening_2}}
+  3. {{linkedin_opening_3}}
+- **signature_closings:**
+  1. {{linkedin_closing_1}}
+  2. {{linkedin_closing_2}}
+  3. {{linkedin_closing_3}}
+- **banned_phrases:** {{linkedin_banned}}
+- **voice_notes:** {{linkedin_voice_notes}}
+
+## Twitter / X
+
+- **length_range:** 60-100 chars (sweet spot, 280 max)
+- **signature_openings:**
+  1. {{twitter_opening_1}}
+  2. {{twitter_opening_2}}
+  3. {{twitter_opening_3}}
+- **signature_closings:**
+  1. {{twitter_closing_1}}
+  2. {{twitter_closing_2}}
+  3. {{twitter_closing_3}}
+- **banned_phrases:** {{twitter_banned}}
+- **voice_notes:** {{twitter_voice_notes}}
+
+## Instagram
+
+- **length_range:** Hook in first 125 chars, full caption up to 2,200
+- **signature_openings:**
+  1. {{instagram_opening_1}}
+  2. {{instagram_opening_2}}
+  3. {{instagram_opening_3}}
+- **signature_closings:**
+  1. {{instagram_closing_1}}
+  2. {{instagram_closing_2}}
+  3. {{instagram_closing_3}}
+- **banned_phrases:** {{instagram_banned}}
+- **voice_notes:** {{instagram_voice_notes}}
+
+## Facebook
+
+- **length_range:** 40-80 chars optimal (300 max for feed)
+- **signature_openings:**
+  1. {{facebook_opening_1}}
+  2. {{facebook_opening_2}}
+  3. {{facebook_opening_3}}
+- **signature_closings:**
+  1. {{facebook_closing_1}}
+  2. {{facebook_closing_2}}
+  3. {{facebook_closing_3}}
+- **banned_phrases:** {{facebook_banned}}
+- **voice_notes:** {{facebook_voice_notes}}
+
+## TikTok
+
+- **length_range:** Caption under 150 chars; keyword in first 30
+- **signature_openings:**
+  1. {{tiktok_opening_1}}
+  2. {{tiktok_opening_2}}
+  3. {{tiktok_opening_3}}
+- **signature_closings:**
+  1. {{tiktok_closing_1}}
+  2. {{tiktok_closing_2}}
+  3. {{tiktok_closing_3}}
+- **banned_phrases:** {{tiktok_banned}}
+- **voice_notes:** {{tiktok_voice_notes}}
+
+## Threads
+
+- **length_range:** 500 chars max, 200-350 sweet spot
+- **signature_openings:**
+  1. {{threads_opening_1}}
+  2. {{threads_opening_2}}
+  3. {{threads_opening_3}}
+- **signature_closings:**
+  1. {{threads_closing_1}}
+  2. {{threads_closing_2}}
+  3. {{threads_closing_3}}
+- **banned_phrases:** {{threads_banned}}
+- **voice_notes:** {{threads_voice_notes}}
+
+---
+
+Filled in by `/onboard-social` Phase 4 on {{date}}.

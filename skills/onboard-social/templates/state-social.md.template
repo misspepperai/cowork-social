@@ -1,0 +1,62 @@
+# `/onboard-social` State
+
+> Resumability tracker. Do not edit by hand — the wizard owns this file.
+
+plugin: cowork-social
+plugin_version: 0.1.0
+schema_version: v1
+install_complete: false
+
+## Phase progress
+
+| # | Phase | Status | Completed |
+|---|---|---|---|
+| 0 | Welcome + prereq check | pending | |
+| 1 | Read business + classify | pending | |
+| 2 | Brand brief sync (delta-only) | pending | |
+| 3 | Pick platforms | pending | |
+| 4 | Capture per-platform voice | pending | |
+| 5 | Asset index setup | pending | |
+| 6 | Scheduling defaults | pending | |
+| 7 | Blotato connector (optional) | pending | |
+| 8 | Update safe-zones | pending | |
+| 9 | First draft live-fire | pending | |
+| 10 | Schedule cadence + 14-day calibration | pending | |
+
+## Detected business type
+
+(filled in Phase 1)
+
+## Platforms selected
+
+(filled in Phase 3 — e.g. linkedin, twitter, instagram, facebook, tiktok, threads)
+
+platforms_selected:
+
+## Platform voice captured for
+
+(filled in Phase 4 — list of platforms where `platform-voice.md` has real content, not just scaffold)
+
+platform_voice_captured_for:
+
+## Asset index path
+
+(filled in Phase 5 — pointer to the user's local image folder + asset-index.md location)
+
+asset_index_path:
+
+## Scheduling defaults path
+
+(filled in Phase 6 — usually `projects/social-media-content/scheduling-defaults.md`)
+
+scheduling_defaults_path:
+
+## Blotato connection status
+
+(filled in Phase 7 — one of: `connected`, `skipped`, `awaiting-oauth`)
+
+blotato_status:
+
+## Calibration date
+
+(filled in Phase 10 — 14 days from install)

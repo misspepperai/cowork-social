@@ -1,0 +1,33 @@
+---
+type: cowork-social-calendar-log
+plugin: cowork-social
+plugin_version: 0.1.0
+note: Append-only log of every post drafted by cowork-social. Each draft skill writes a row at Step 8. Never edit existing rows — re-runs append, they don't overwrite. Used by `/content-engine-review` for weekly retrospectives.
+last_updated: {{date}}
+---
+
+# Calendar Log
+
+> Append-only. Newest at the bottom. One row per post drafted.
+
+| ISO date | platform | post_slug | scheduled_time | blotato_status |
+|---|---|---|---|---|
+
+<!--
+Example rows (delete this block once you have real entries):
+
+| 2026-05-15 | linkedin | what-i-learned-from-90-days | 2026-05-16T09:00:00-04:00 | scheduled |
+| 2026-05-15 | twitter | most-people-think-niching | 2026-05-15T10:30:00-04:00 | manual |
+| 2026-05-16 | instagram | new-launch-headshot | -- | drafted |
+
+blotato_status values:
+- `scheduled` — sent to Blotato, queued for publish
+- `published` — Blotato confirmed publish
+- `manual` — drafted but not scheduled (user will post by hand)
+- `drafted` — saved to outputs/, no schedule decision yet
+- `failed` — Blotato API call failed; see outputs/<slug>.md notes
+-->
+
+---
+
+Wizard initialized this file on {{date}} during `/onboard-social` Phase 0.
