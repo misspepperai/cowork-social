@@ -1,0 +1,23 @@
+﻿{
+    "name":  "cowork-social",
+    "owner":  {
+                  "name":  "Miss Pepper AI",
+                  "email":  "support@misspepper.ai"
+              },
+    "metadata":  {
+                     "description":  "Social media content engine for the Cowork AI OS. 13 skills: 8-phase wizard, brand-brief auto-derive, content coach, 6 platform draft skills, post grader, Monday/Saturday/monthly orchestrators. Soft-depends on cowork-ai-os.",
+                     "version":  "0.1.1"
+                 },
+    "plugins":  [
+                    {
+                        "name":  "cowork-social",
+                        "source":  "./",
+                        "description":  "Social media content engine for the Cowork AI OS. 13 skills: 8-phase wizard, brand-brief auto-derive, content coach, 6 platform draft skills, post grader, Monday/Saturday/monthly orchestrators. Soft-depends on cowork-ai-os.",
+                        "version":  "0.1.1",
+                        "author":  {
+                                       "name":  "Miss Pepper AI"
+                                   }
+                    }
+                ],
+    "version":  "0.1.1"
+}
